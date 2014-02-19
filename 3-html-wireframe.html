@@ -13,20 +13,20 @@
     <body>
 
         <header>
-            <h1>Susan <img src="logo.jpg" width="10%" title="Logo" alt="logo"/>Huang</h1>
-            <img src="divider.jpg" width="100%" title="divider" alt="divider" />
+            <h1 align="center">Susan <img src="logo.jpg" width="10%" title="Logo" alt="logo"/>Huang</h1>
+            <img src="divider.jpg" width="100%" height="30px" title="divider" alt="divider" />
         </header>
 
         <article>
 
+            <figure>
             <section>
                 <h2>Welcome!</h2>
                 <p>Introductory text about myself</p>
             </section>
 <!-- This section should be overlayed the figure. The figure should be serving as a background-->
-            
-            <figure>
-                <img src="portrait.jpg" width="100%" title="portrait" alt="portrait" />
+                      
+                <img src="portrait.jpg" width="100%" height="500px" title="portrait" alt="portrait" />
             </figure>
          
 
@@ -34,11 +34,21 @@
         
         <nav>
             <section>
-                <img src="resume.jpg" width="30%" title="resume" alt="resume" />
-                <img src="writing.jpg" width="30%" title="writing" alt="photography" />
-                <img src="photography.jpg" width="30%" title="resume" alt="photography" />
+                <a href="resume.html" target="_blank">
+                    <img src="resume.jpg" width="30%" hspace="3%" border="1px" title="resume" alt="resume" />
+                </a>
+                
+                <a href="writing.html">
+                    <img src="writing.jpg" width="30%" hspace="3%" border="1px" title="writing" alt="writing" />
+                </a>
+                
+                <a href="photography.html" target="_blank">
+                    <img src="photography.jpg" width="30%" hspace="3%" border="1px" title="resume" alt="photography" />
+                </a>
+            
             </section>
         </nav>
+    <!--Images will serve as links for the navigation-->
 
         <footer>
             <p id="copyright">&copy; 2013. Content in your projects should be all original. Any content from additional sources should explicitly state the source and give credit. The GIFs used in these exercises were found on <a href="http://giphy.com/">Giphy</a>. If these exercises were intended for public viewing, I should track down the actually copyright owner for all of the images I used.</p>
