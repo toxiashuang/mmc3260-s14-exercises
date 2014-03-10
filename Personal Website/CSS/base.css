@@ -38,11 +38,6 @@ figure section {
     top: 10%;
     left: 10%
           }
-          
-li{
-    float: left;
-    margin-right: 1em;
-}
 
 header {
 
@@ -56,19 +51,28 @@ nav a {
     float: center;
 }
 
+nav img {
+    float: center;
+}
+
 section {
 
 }
 
-footer p {
+footer {
     text-align: center;
 
 }
 
 footer ul {
     list-style-type:none;
-    margin:0;
-    padding:0;
+}
+
+footer li{
+    align-content: center;
+    margin-right: 2%;
+    display:inline;
+    text-align:center
 }
 
 #email {
