@@ -28,6 +28,10 @@ img {
 header{
     text-align:center; 
 }
+
+header img {
+    width="100%" height="20" 
+}
           
 figure{
     position:relative; 
