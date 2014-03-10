@@ -3,7 +3,7 @@
 /* Typically you put all of your general element styles at the top. */
 
 body {
-	background-color: #eeeeee;
+	background-color: 
 }
 
 h1 {
@@ -39,29 +39,27 @@ figure section {
     left: 10%
           }
 
-header {
-
+/* nav {
+    position:relative;
 }
 
-nav {
-
-}
-
-nav a {
-    float: center;
-}
-
-nav img {
-    float: center;
-}
+nav section {
+    Position:absolute;
+    top: 2%
+    left: 2%
+} */
 
 section {
 
 }
 
 footer {
-    text-align: center;
+    background-color:#686868;
+    text-align:center;
+}
 
+footer section {
+    text-align: center;
 }
 
 footer ul {
@@ -75,13 +73,13 @@ footer li{
     text-align:center
 }
 
-#email {
+/* #email {
     text-align: center;
 }
 
 #social {
     text-align: center;
-}
+}  */
     
 
 
