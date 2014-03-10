@@ -25,6 +25,25 @@ img {
 
 /* Container or module styles probably come next. */
 
+header{
+    text-align:center; 
+}
+          
+figure{
+    position:relative; 
+          }
+          
+figure section {
+    position: absolute; 
+    top: 10%;
+    left: 10%
+          }
+          
+li{
+    float: left;
+    margin-right: 1em;
+}
+
 header {
 
 }
@@ -34,20 +53,33 @@ nav {
 }
 
 nav a {
-
+    float: center;
 }
 
 section {
 
 }
 
-aside {
+footer p {
+    text-align: center;
 
 }
 
-footer {
-
+footer ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
 }
+
+#email {
+    text-align: center;
+}
+
+#social {
+    text-align: center;
+}
+    
+
 
 /* Class and ID styles come last because they are the most specific. */
 
