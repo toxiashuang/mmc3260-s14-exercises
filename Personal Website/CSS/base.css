@@ -1,6 +1,4 @@
-/* This is the syntax for a CSS comment. */
-
-/* Typically you put all of your general element styles at the top. */
+/* General element styles */
 
 container {
     border:1px;
@@ -16,7 +14,6 @@ h1 {
 }
 
 h2 {
-
 }
 
 p {
@@ -24,6 +21,7 @@ p {
 
 img {
     width:100%;
+    border:2px solid black;
 }
 
 /* unvisited link */
@@ -38,11 +36,16 @@ a.footer:visited {
     text-decoration:none;
 }
 
+/* hover link */
 a.footer:hover {
     color:#B8860B;
 }
 
-/* Container or module styles probably come next. */
+
+
+
+
+/* Container or module styles */
 
 header{
     text-align:center; 
@@ -96,6 +99,10 @@ footer li{
     display:inline;
 }
 
+
+
+
+/* Class and ID styles*/
 #social {
     margin:2 2 2 2px;
     padding:0px
@@ -104,8 +111,5 @@ footer li{
 #social img {
     width:25px;
     height:25px;
+    border:0px solid black;
 }
-
-
-
-/* Class and ID styles come last because they are the most specific. */
