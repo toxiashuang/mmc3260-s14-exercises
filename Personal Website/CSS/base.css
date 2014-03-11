@@ -3,7 +3,7 @@
 /* Typically you put all of your general element styles at the top. */
 
 body {
-	background-color: 
+	background-color: #F5F5DC;
 }
 
 h1 {
@@ -19,9 +19,22 @@ p {
 }
 
 img {
-
+    width:100%;
 }
 
+/* unvisited link */
+a.footer:link {
+    color:#000000;
+}      
+
+/* visited link */
+a.footer:visited {
+    color:#000000;
+}
+
+a.footer:hover {
+    color:#B8860B;
+}
 
 /* Container or module styles probably come next. */
 
@@ -35,60 +48,62 @@ header img {
           
 figure{
     position:relative; 
-          }
+}
           
 figure section {
     position: absolute; 
     top: 10%;
     left: 10%
-          }
-
-/* nav {
-    position:relative;
 }
 
-nav section {
-    Position:absolute;
-    top: 2%
-    left: 2%
-} */
+nav {
+    text-align:center;
+}
 
-section {
-
+nav section img {
+    width:30%;
+    margin-left:2px;
+    margin-right:2px;
+    marging-bottom:1%;
 }
 
 footer {
     background-color:#686868;
     text-align:center;
+    padding-top:1px;
 }
 
 footer section {
-    text-align: center;
+    margin:0px;
+    padding:0px
 }
 
 footer ul {
     list-style-type:none;
+    margin-top:5px;
+    margin-bottom:0px;
 }
 
 footer li{
-    align-content: center;
     margin-right: 2%;
     display:inline;
-    text-align:center
 }
 
-/* #email {
-    text-align: center;
+#email {
+    margin:0px;
+    padding:0px;
 }
 
 #social {
-    text-align: center;
-}  */
-    
+    margin:0px;
+    padding:0px
+}
+
+#social img {
+    width:25px;
+    height:25px;
+}
+
 
 
 /* Class and ID styles come last because they are the most specific. */
-
-#copyright {
-
-}
